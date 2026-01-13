@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blnd.96</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #121212; /* ڕەنگێ ڕەش بۆ جوانیێ */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #00ff00; /* چوارچۆڤەکێ کەسک */
+        }
+        h1 { font-size: 28px; color: #00ff00; }
+        .container {
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+        }
+        .btn {
+            background: #00ff00;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="logo" alt="Logo">
+        <h1>blnd.96</h1>
+        <p>بخێر بێی بۆ ئەپڵیکەیشنا من!</p>
+        <button class="btn" onclick="startApp()">دەستپێ بکە</button>
+    </div>
+
+    <script>
+        function startApp() {
+            alert("بەرنامێ blnd.96 دەستپێکر!");
+        }
+    </script>
+
+</body>
+</html>
